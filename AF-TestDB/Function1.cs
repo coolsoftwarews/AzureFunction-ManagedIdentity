@@ -38,7 +38,7 @@ namespace AF_TestDB
             try
             {
                 string serverName = "azn-sql-demo-server";
-                string dbName = "azn-sqldb-demo-db";
+                string dbName = "aznsqldb-demo-db";
 
                 List<string> result = new();
                 //using (SqlConnection conn = new SqlConnection($"Data Source= .\\mssql2019; Initial Catalog = TestDB; trusted_connection=true; trustServerCertificate=true"))
